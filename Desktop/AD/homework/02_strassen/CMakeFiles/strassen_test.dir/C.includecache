@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Mec/Desktop/AD/homework/02_strassen/main.c
+stdio.h
+-
+test.h
+/Users/Mec/Desktop/AD/homework/02_strassen/test.h
+matrix.h
+/Users/Mec/Desktop/AD/homework/02_strassen/matrix.h
+strassen.h
+/Users/Mec/Desktop/AD/homework/02_strassen/strassen.h
+
+/Users/Mec/Desktop/AD/homework/02_strassen/matrix.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+matrix.h
+/Users/Mec/Desktop/AD/homework/02_strassen/matrix.h
+
+/Users/Mec/Desktop/AD/homework/02_strassen/matrix.h
+stdlib.h
+-
+
+/Users/Mec/Desktop/AD/homework/02_strassen/strassen.c
+math.h
+-
+matrix.h
+/Users/Mec/Desktop/AD/homework/02_strassen/matrix.h
+
+/Users/Mec/Desktop/AD/homework/02_strassen/strassen.h
+
+/Users/Mec/Desktop/AD/homework/02_strassen/test.c
+time.h
+-
+
+/Users/Mec/Desktop/AD/homework/02_strassen/test.h
+
